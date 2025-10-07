@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Todo Now</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .last-updated {
+            color: #86868b;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #1d1d1f;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #1d1d1f;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #1d1d1f;
+        }
+
+        .contact {
+            background-color: #f5f5f7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .language-toggle {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .language-toggle button {
+            background-color: #0071e3;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-left: 5px;
+        }
+
+        .language-toggle button:hover {
+            background-color: #0077ed;
+        }
+
+        .language-toggle button.active {
+            background-color: #1d1d1f;
+        }
+
+        .content-section {
+            display: none;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-toggle">
+            <button onclick="showLanguage('zh-hant')" id="btn-zh-hant" class="active">繁體中文</button>
+            <button onclick="showLanguage('en')" id="btn-en">English</button>
+        </div>
+
+        <!-- 繁體中文版本 -->
+        <div id="content-zh-hant" class="content-section active">
+            <h1>隱私政策</h1>
+            <p class="last-updated">最後更新：2025年1月</p>
+
+            <h2>1. 我們收集的資訊</h2>
+            <p>Todo Now 在設計時考慮了隱私。我們收集的資訊極少：</p>
+            <ul>
+                <li>您創建的待辦事項、習慣及相關數據存儲在您的設備本地</li>
+                <li>如果啟用 iCloud 同步，您的數據將同步到您的個人 iCloud 帳戶</li>
+                <li>可能收集匿名使用統計數據以改進應用程式</li>
+            </ul>
+
+            <h2>2. 我們如何使用您的資訊</h2>
+            <ul>
+                <li>所有待辦事項和習慣數據都保留在您的設備或個人 iCloud 帳戶中</li>
+                <li>我們不會向第三方出售、分享或轉移您的個人數據</li>
+                <li>匿名分析幫助我們了解應用使用情況並改進功能</li>
+            </ul>
+
+            <h2>3. 數據存儲</h2>
+            <ul>
+                <li>您的數據存儲在您的設備本地</li>
+                <li>如果啟用 iCloud，數據將同步到由 Apple 控制的您的個人 iCloud 帳戶</li>
+                <li>我們無法訪問您的個人 iCloud 數據</li>
+            </ul>
+
+            <h2>4. 第三方服務</h2>
+            <ul>
+                <li>我們使用 Apple 的 StoreKit 進行應用內購買</li>
+                <li>Apple 的隱私政策適用於支付資訊</li>
+            </ul>
+
+            <h2>5. 兒童隱私</h2>
+            <p>Todo Now 不會故意收集13歲以下兒童的資訊。如果我們發現收集了此類資訊，將立即刪除。</p>
+
+            <h2>6. 您的權利</h2>
+            <ul>
+                <li>您可以通過刪除應用程式來刪除所有數據</li>
+                <li>您可以控制哪些數據同步到 iCloud</li>
+                <li>您可以通過聯繫我們來請求有關我們收集的數據的資訊</li>
+            </ul>
+
+            <h2>7. 安全性</h2>
+            <p>我們採取安全措施保護您的數據。但是，沒有任何方法是100%安全的。</p>
+
+            <h2>8. 隱私政策變更</h2>
+            <p>我們可能會更新此政策。我們將通過應用程式或我們的網站通知您重大變更。</p>
+
+            <div class="contact">
+                <h2>9. 聯繫我們</h2>
+                <p>如有隱私問題或疑慮，請聯繫我們：<a href="mailto:todonowapp@outlook.com">todonowapp@outlook.com</a></p>
+                <p><strong>您的隱私對我們很重要。Todo Now 旨在保護您的數據私密和安全。</strong></p>
+            </div>
+        </div>
+
+        <!-- English Version -->
+        <div id="content-en" class="content-section">
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Last Updated: January 2025</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>Todo Now is designed with privacy in mind. We collect minimal information:</p>
+            <ul>
+                <li>Todos, habits, and related data you create are stored locally on your device</li>
+                <li>If you enable iCloud sync, your data is synced to your personal iCloud account</li>
+                <li>Anonymous usage statistics may be collected to improve the app</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <ul>
+                <li>All todo and habit data remains on your device or in your personal iCloud account</li>
+                <li>We do not sell, share, or transfer your personal data to third parties</li>
+                <li>Anonymous analytics help us understand app usage and improve features</li>
+            </ul>
+
+            <h2>3. Data Storage</h2>
+            <ul>
+                <li>Your data is stored locally on your device</li>
+                <li>If you enable iCloud, data is synced to your personal iCloud account controlled by Apple</li>
+                <li>We do not have access to your personal iCloud data</li>
+            </ul>
+
+            <h2>4. Third-Party Services</h2>
+            <ul>
+                <li>We use Apple's StoreKit for in-app purchases</li>
+                <li>Apple's privacy policy applies to payment information</li>
+            </ul>
+
+            <h2>5. Children's Privacy</h2>
+            <p>Todo Now does not knowingly collect information from children under 13. If we discover we have collected such information, we will delete it promptly.</p>
+
+            <h2>6. Your Rights</h2>
+            <ul>
+                <li>You can delete all your data by deleting the app</li>
+                <li>You control what data is synced to iCloud</li>
+                <li>You can request information about data we collect by contacting us</li>
+            </ul>
+
+            <h2>7. Security</h2>
+            <p>We implement security measures to protect your data. However, no method is 100% secure.</p>
+
+            <h2>8. Changes to Privacy Policy</h2>
+            <p>We may update this policy. We will notify you of significant changes through the app or our website.</p>
+
+            <div class="contact">
+                <h2>9. Contact Us</h2>
+                <p>For privacy questions or concerns, contact us at: <a href="mailto:todonowapp@outlook.com">todonowapp@outlook.com</a></p>
+                <p><strong>Your privacy matters to us. Todo Now is built to keep your data private and secure.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all content sections
+            document.querySelectorAll('.content-section').forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Remove active class from all buttons
+            document.querySelectorAll('.language-toggle button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            // Show selected language
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
